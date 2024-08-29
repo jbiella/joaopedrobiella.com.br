@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 { /* titulo */
+    color: #000000;
+    text-align: center;
+}
+
+nav { /* barra de navegação */
+    text-align: center;
+    background-color: #aaa7a7; 
+    padding: 10px;
+    border-radius: 10px;
+}
+  
+nav a { /* animação dos botoes */
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); 
+    margin: 0 3%; 
+    transition: all 0.3s ease; 
+}
+
+@media (max-width: 768px) { /* ajuste de texto conforme o ideal */
+    nav a {
+      margin: 0 5px; /* reduzir margem p/ tela menor */
+    }
+}
+
+nav a:hover { /* efeito de profundidade mais intenso no hover */
+    background-color: #e0e0e0;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); 
+}
+
+section { /*espaçamento na área sobre mim*/
+    margin-bottom: 20px;
+}
+
+.foto01 {
+  float: left;
+  margin-left: 10px; 
+}
+
+.foto01 img {
+  width: 150px; /* largura da imagem */
+  border-radius: 45%; /* arredonda a bordas da imagem*/
+  padding-right: 10px;
+}
+
+footer {
+  background-color:  #aaa7a7; 
+  color: #fff; 
+  padding: 15px 0; 
+  width: 100%; 
+  text-align: center;
+  border-radius: 10px;
+  
+}
+
+.imagens-lado-lado {
+  display: flex; /*imagens em linha */
+  justify-content: space-between; /*espaço entre as imagens */
+  align-items: center; 
+  gap: 10px; 
+  margin: 20px 0; /* espaçamento cima/baixo*/
+}
+
+.imagens-lado-lado img {
+  width: calc(33.333% - 10px);
+  height: auto; 
+  border-radius: 5px; 
+}

@@ -1,0 +1,56 @@
+body { /* imagem de fundo */
+    background-image: url("/img/fundo_contato.png"); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form { /* formulário */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f2f2f2;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input, textarea { /* estilo das caixas de resposta */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+  
+button { /* estilo do botao de envio*/
+    background-color: #aaa7a7; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-container {  /* alinhar o botão no centro */
+    text-align: center;
+}
+
+.linkedin{ /* ajustar o linkedin no centro */
+    text-align: center;
+    margin-top: 20px; }
+  
+.linkedin img { /* diminuir a logo */
+    width: 50px;
+    height: 50px;
+}
+
+h1{ 
+    color: #0e76a8; /*cor do icone do linkedin no titulo*/
+}

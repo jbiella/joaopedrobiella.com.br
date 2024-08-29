@@ -1,0 +1,56 @@
+body {
+    background-image: url('/img/fundo_portfolio.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+p{
+    color:white
+}
+
+h2{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 15%;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+.bloco{
+    display: flex;
+    justify-content: center;
+}
+
+#projeto-img {
+    width: 550px;
+    height: 320px;
+    border-radius: 5%;
+}
+
+#meuvideo {
+    width: 550px;
+    height: 320px;
+}
+
+.projeto-texto {
+    display: flex ; 
+    align-items:center ; 
+    gap: 20px; 
+}
+
+.projeto-texto2{
+    display: flex; 
+    align-items:center ; 
+    gap: 20px; 
+}
+
+.projeto-texto3{
+    display: flex; 
+    align-items:flex-start ; 
+    gap: 20px; 
+}
+
